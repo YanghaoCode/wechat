@@ -1,0 +1,313 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+html, .swiper-container, .swiper-container .swiper-wrapper .swiper-slide, .swiper-container .swiper-wrapper .swiper-slide.box2, .swiper-container .swiper-wrapper .swiper-slide.box3, .swiper-container .swiper-wrapper .swiper-slide.box4, .swiper-container .swiper-wrapper .swiper-slide.box5, body {
+  width: 100%;
+  height: 100%; }
+
+.swiper-container .swiper-wrapper .swiper-slide {
+  background: url("../images/background.jpg");
+  background-size: cover; }
+.swiper-container .swiper-wrapper .swiper-slide:after {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  width: 24px;
+  height: 18px;
+  bottom: 20px;
+  background: url("../images/c1.jpg") no-repeat;
+  background-size: cover;
+  animation: showUpDown 1s linear infinite;
+  z-index: 100; }
+.swiper-container .swiper-wrapper .swiper-slide.box2 {
+  background: url("../images/bg.jpg") no-repeat;
+  background-size: cover;
+  z-index: 8; }
+.swiper-container .swiper-wrapper .swiper-slide.box3 {
+  background: url("../images/bg.jpg") no-repeat;
+  background-size: cover;
+  z-index: 8; }
+.swiper-container .swiper-wrapper .swiper-slide.box4 {
+  background: url("../images/bg.jpg") no-repeat;
+  background-size: cover;
+  z-index: 8; }
+.swiper-container .swiper-wrapper .swiper-slide.box5 {
+  background: url("../images/bg.jpg") no-repeat;
+  background-size: cover;
+  z-index: 8; }
+
+.box1 .jiantou_back p:nth-of-type(1) img {
+  width: 75%;
+  height: 28%;
+  position: absolute;
+  top: 10%;
+  left: 0;
+  right: 0;
+  z-index: 4;
+  margin: 0 auto; }
+
+.box1 h2:nth-of-type(1) {
+  font-family: "Microsoft Yahei";
+  font-size: 50px;
+  position: absolute;
+  font-weight: 500;
+  top: 13%;
+  left: 0;
+  right: 0;
+  margin: 0 auto; }
+
+.box1 h2:nth-of-type(2) {
+  font-family: "Microsoft Yahei";
+  font-size: 50px;
+  position: absolute;
+  font-weight: 500;
+  top: 25%;
+  left: 0;
+  right: 0;
+  margin: 0 auto; }
+
+.music img {
+  width: 7%;
+  height: 4%;
+  position: absolute;
+  right: 8%;
+  top: 5%;
+  z-index: 3; }
+
+.word1 {
+  line-height: 30px;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  width: 50%; }
+  .word1 p {
+    font-size: 20px;
+    font-family: "Microsoft Yahei";
+    text-align: center; }
+  .word1 .line {
+    width: 100%;
+    height: 2px;
+    background: black; }
+
+.word2 {
+  width: 12%;
+  height: 7%;
+  border-radius: 50%;
+  background: black;
+  position: absolute;
+  top: 70%;
+  left: 0;
+  right: 0;
+  margin: 0 auto; }
+  .word2 img {
+    width: 100%;
+    height: 100%; }
+
+.huojian img {
+  position: absolute;
+  width: 100%;
+  height: auto;
+  top: 100%;
+  animation: toTop 2s linear 1;
+  z-index: 7; }
+
+@keyframes toTop {
+  from {
+    top: 100%;
+    opacity: 1; }
+  to {
+    top: -40%;
+    opacity: 1;
+    display: none; } }
+.c1 {
+  width: 69%;
+  height: 41%;
+  position: absolute;
+  top: 23%;
+  text-align: center;
+  left: 0;
+  right: 0; }
+
+.word_back {
+  width: 80%;
+  height: 100%;
+  margin: 0 auto;
+  z-index: 10; }
+  .word_back img {
+    width: 70%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto; }
+  .word_back .btq {
+    position: absolute;
+    top: 10%; }
+  .word_back .ztlx {
+    position: absolute;
+    top: 36%; }
+  .word_back .ds {
+    position: absolute;
+    top: 55%;
+    width: 48%;
+    height: 13%; }
+  .word_back .slm {
+    position: absolute;
+    top: 71%; }
+
+.word2_back {
+  width: 80%;
+  height: 100%;
+  margin: 0 auto;
+  z-index: 10; }
+  .word2_back img {
+    width: 78%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto; }
+  .word2_back .xzn {
+    position: absolute;
+    top: 10%; }
+  .word2_back .q {
+    position: absolute;
+    top: 30%;
+    width: 77%;
+    height: 45%; }
+  .word2_back .qdzslx {
+    position: absolute;
+    top: 70%;
+    left: 16%; }
+
+.word3_back {
+  width: 80%;
+  margin: 0 auto;
+  height: 100%;
+  z-index: 10; }
+  .word3_back img {
+    width: 80%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto; }
+  .word3_back .ksyyqhcp {
+    position: absolute;
+    top: 14%; }
+  .word3_back .cnyyshyf {
+    position: absolute;
+    top: 40%; }
+  .word3_back .train {
+    position: absolute;
+    top: 85%;
+    width: 38%;
+    height: 6%;
+    right: -60%;
+    animation: toLeft 4s linear infinite; }
+
+@keyframes toLeft {
+  from {
+    right: -60%; }
+  to {
+    right: -40%; } }
+.word4_back {
+  width: 80%;
+  margin: 0 auto;
+  height: 100%;
+  z-index: 10; }
+  .word4_back img {
+    width: 78%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto; }
+  .word4_back .lbsgsr {
+    position: absolute;
+    top: 10%; }
+  .word4_back .kgx {
+    position: absolute;
+    top: 28%; }
+  .word4_back .wordkuang {
+    position: absolute;
+    top: 52%; }
+  .word4_back .erweima {
+    position: absolute;
+    top: 53%;
+    width: 51%; }
+
+.jiantou_back {
+  width: 100%;
+  height: 10%;
+  text-align: center; }
+
+.jiantou {
+  position: absolute;
+  bottom: 8%;
+  width: 30px;
+  height: 30px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  animation: showUpDown 1s linear infinite; }
+
+@keyframes showUpDown {
+  from {
+    bottom: 8%;
+    opacity: 1; }
+  to {
+    bottom: 13%;
+    opacity: 0; } }
+.word5_back {
+  width: 100%;
+  margin: 0 auto;
+  height: 100%;
+  z-index: 10;
+  text-align: center; }
+  .word5_back .blackback {
+    width: 104%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: -16%;
+    margin: 0 auto; }
+  .word5_back h3 {
+    margin: 0 auto;
+    font-size: 30px;
+    color: #fff;
+    position: absolute;
+    font-weight: normal;
+    top: 12%;
+    left: 0;
+    right: 0;
+    font-family: "Microsoft Yahei"; }
+  .word5_back .people2 {
+    position: absolute;
+    left: 15%;
+    top: 20%;
+    width: 18%; }
+  .word5_back .people3 {
+    position: absolute;
+    left: 16%;
+    top: 44%;
+    width: 15%; }
+  .word5_back .xiaolaba {
+    width: 60%;
+    position: absolute;
+    left: 0;
+    bottom: 0; }
+  .word5_back p {
+    font-size: 20px;
+    color: white;
+    font-family: "Microsoft Yahei"; }
+  .word5_back .jishu {
+    position: absolute;
+    left: 41%;
+    top: 30%; }
+  .word5_back .yunying {
+    position: absolute;
+    left: 44%;
+    top: 50%; }
+
+/*# sourceMappingURL=index.css.map */
